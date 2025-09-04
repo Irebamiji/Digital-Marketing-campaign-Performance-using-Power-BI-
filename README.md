@@ -41,12 +41,12 @@ I plan to achieve this by cleaning a clean, professional dashboard that clearly 
 # o	Total_Revenue = SUM(marketing[Revenue (INR)])
 
 # Step 3 (REPORT)
-•	Hover around the report page and select card visuals in the visualization pane
-•	The selected visual would show on the blank canvas
-•	Proceed to select the visuals you would like to view in the data pane
+•	Hover around the report page and select card visuals in the visualization pane.
+•	The selected visual would show on the blank canvas.
+•	Proceed to select the visuals you would like to view in the data pane.
 •	To Check for Key Performance Indicators (KPI) for Total Ad Spend, Total Impressions, Total Clicks, Total Conversions, Total Revenue, and Overall RoI( Return on Investment), I used the card visual to achieve this.
 •	To create charts for Ad Spend by Channel, Clicks vs Impressions, Conversion Rate by Category, Revenue by Product, RoI by Product/Category, I explored the use of bars, columns, tables, indices, donut charts to achieve this.
-•	 To create time based trends for Spend, Conversions, ROI, and Clicks, I proceeded to us line charts to represent visuals
+•	 To create time based trends for Spend, Conversions, ROI, and Clicks, I proceeded to us line charts to represent visuals.
 •	I proceeded to add slicers for Campaign Date, Product Name, Product Category, and Marketing Channel to enable filtering. 
 
 # Step 4 (DASHBOARD)
