@@ -31,14 +31,14 @@ I plan to achieve this by cleaning a clean, professional dashboard that clearly 
 # Step 2 (DAX MEASURES AND FORMULAS)
 •	Navigate and select table view to view table 
 •	In the dialogue box, proceed to type in the formulas needed to calculate CTR, Conversion Rate, Total Ad Spend, Impressions, Clicks, Conversions, Revenue, and Overall ROI  Using Measures.
-o	Click_Through_Rate = DIVIDE([Total_clicks], [Total_Impressions], 0)  
-o	Conversion_Rate = DIVIDE([Total_Conversions], [Total_clicks], 0)
-o	Overall_ROI = DIVIDE([Total_Revenue] - [Total_Ad_Spend], [Total_Ad_Spend],0)
-o	Total_Ad_Spend = SUM(marketing[Ad Spend (INR)])
-o	Total_clicks = SUM(marketing[Clicks])
-o	Total_Conversions = SUM(marketing[Conversions])
-o	Total_Impressions = SUM(marketing[Impressions])
-o	Total_Revenue = SUM(marketing[Revenue (INR)])
+# o	Click_Through_Rate = DIVIDE([Total_clicks], [Total_Impressions], 0)  
+# o	Conversion_Rate = DIVIDE([Total_Conversions], [Total_clicks], 0)
+# o	Overall_ROI = DIVIDE([Total_Revenue] - [Total_Ad_Spend], [Total_Ad_Spend],0)
+# o	Total_Ad_Spend = SUM(marketing[Ad Spend (INR)])
+# o	Total_clicks = SUM(marketing[Clicks])
+# o	Total_Conversions = SUM(marketing[Conversions])
+# o	Total_Impressions = SUM(marketing[Impressions])
+# o	Total_Revenue = SUM(marketing[Revenue (INR)])
 
 # Step 3 (REPORT)
 •	Hover around the report page and select card visuals in the visualization pane
