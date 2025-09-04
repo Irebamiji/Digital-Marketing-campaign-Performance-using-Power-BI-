@@ -9,49 +9,74 @@ I plan to achieve this by cleaning a clean, professional dashboard that clearly 
 # Key Tasks
 1.	Create Key Performance Indicators (KPI) for Total Ad Spend, Total Impressions, Total Clicks, Total Conversions, Total Revenue, and Overall RoI( Return on Investment).
 2.	Create charts for Ad Spend by Channel, Clicks vs Impressions, Conversion Rate by Category, Revenue by Product, RoI by Product/Category. 
-3.	Create time based trends for Spend, Conversions, ROI, and Clicks.
-4.	Add slicers for Campaign Date, Product Name, Product Category, and Marketing Channel.
-5.	Create calculated fields for CTR( Click Through Rate), Conversion Rate, and ROI Using DAX measures.
+4.	Create time based trends for Spend, Conversions, ROI, and Clicks.
+5.	Add slicers for Campaign Date, Product Name, Product Category, and Marketing Channel.
+6.	Create calculated fields for CTR( Click Through Rate), Conversion Rate, and ROI Using DAX measures.
 
 # Contents
  Step 1: Loading and transforming data in Power BI
+ 
  Step 2: DAX formulas and measures
+ 
  Step 3: Report
+ 
  Step 4: Dashboard
+ 
  Step 5: Future strategies, Recommendation/Suggestion.
 
 # Step 1 (LOADING AND TRANSFORMING DATA IN POWER BI)
 •	Download embedded data set through link 
+
 •	Load data to Power BI clicking on Get data >> Excel workbook from the home tab 
+
 •	Select dataset to open from the file manager icon that opens up.
+
 •	Preview data by selecting the marketing table icon on the navigator pane and click load. 
-•	Proceed to Transform the data using power query to clean any inconsistencies and dirty data
+
+•	Proceed to Transform the data using power query to clean any inconsistencies and dirty data.
+
 •	After cleaning, which in this case was a clean data, close and apply.
 
 # Step 2 (DAX MEASURES AND FORMULAS)
 •	Navigate and select table view to view table 
+
 •	In the dialogue box, proceed to type in the formulas needed to calculate CTR, Conversion Rate, Total Ad Spend, Impressions, Clicks, Conversions, Revenue, and Overall ROI  Using Measures.
-# o	Click_Through_Rate = DIVIDE([Total_clicks], [Total_Impressions], 0)  
-# o	Conversion_Rate = DIVIDE([Total_Conversions], [Total_clicks], 0)
-# o	Overall_ROI = DIVIDE([Total_Revenue] - [Total_Ad_Spend], [Total_Ad_Spend],0)
-# o	Total_Ad_Spend = SUM(marketing[Ad Spend (INR)])
-# o	Total_clicks = SUM(marketing[Clicks])
-# o	Total_Conversions = SUM(marketing[Conversions])
-# o	Total_Impressions = SUM(marketing[Impressions])
-# o	Total_Revenue = SUM(marketing[Revenue (INR)])
+ o	Click_Through_Rate = DIVIDE([Total_clicks], [Total_Impressions], 0)  
+ 
+ o	Conversion_Rate = DIVIDE([Total_Conversions], [Total_clicks], 0)
+ 
+ o	Overall_ROI = DIVIDE([Total_Revenue] - [Total_Ad_Spend], [Total_Ad_Spend],0)
+ 
+ o	Total_Ad_Spend = SUM(marketing[Ad Spend (INR)])
+ 
+ o	Total_clicks = SUM(marketing[Clicks])
+ 
+ o	Total_Conversions = SUM(marketing[Conversions])
+ 
+ o	Total_Impressions = SUM(marketing[Impressions])
+ 
+ o	Total_Revenue = SUM(marketing[Revenue (INR)])
 
 # Step 3 (REPORT)
 •	Hover around the report page and select card visuals in the visualization pane.
+
 •	The selected visual would show on the blank canvas.
+
 •	Proceed to select the visuals you would like to view in the data pane.
+
 •	To Check for Key Performance Indicators (KPI) for Total Ad Spend, Total Impressions, Total Clicks, Total Conversions, Total Revenue, and Overall RoI( Return on Investment), I used the card visual to achieve this.
+
 •	To create charts for Ad Spend by Channel, Clicks vs Impressions, Conversion Rate by Category, Revenue by Product, RoI by Product/Category, I explored the use of bars, columns, tables, indices, donut charts to achieve this.
+
 •	 To create time based trends for Spend, Conversions, ROI, and Clicks, I proceeded to us line charts to represent visuals.
+
 •	I proceeded to add slicers for Campaign Date, Product Name, Product Category, and Marketing Channel to enable filtering. 
 
 # Step 4 (DASHBOARD)
 •	On a new page and a blank Canvas, select shape to be used as tile and arrange, edit and fit in visuals.
+
 •	Proceed to edit charts to fit into the size of the dashboard to enable a clean, neat and clear dashboard.
+
 •	Afterwards, format visuals, add colors, increase fonts in the card visuals, using the visualization pane for proper formatting to get a clear, visually appealing dashboard.
 
 # Step 5 (FUTURE STRATEGIES, RECOMMENDATIONS/ SUGGESTIONS)
